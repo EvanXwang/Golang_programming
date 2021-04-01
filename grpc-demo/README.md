@@ -41,6 +41,18 @@ QA ：若出現錯誤如下：
 
 3. 執行後會產生此proto檔案 對應的.pb.go檔案  > helloworld.pb.go
 
+
+###安裝gRPC
+
+1. 在專案下執行   go get -u google.golang.org/grpc@v1.29.1
+
+在gRPC中，一共包含四種呼叫方式：  
+
+● Unary RPC ：一元RPC  
+● Server-side streaming RPC ： 服務端流式RPC  
+● Client-side streaming RPC ： 用戶端流式RPC  
+● Bidirectional streaming RPC ： 雙向流式RPC
+
    
    
    
